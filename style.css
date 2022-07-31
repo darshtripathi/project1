@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.nav{
+    box-shadow: 3px 3px 5px 5px rgba(58, 57, 57, 0.486);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.nav img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.mainsec{
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mainsec h1{
+    font-size: 70px;
+}
+
+.mainsec button{
+    margin: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mainsec button:hover{
+
+    background: none ;
+    outline: 1px solid white;
+    color: white;
+
+
+}
+
+.services{
+    height: 80vh;
+    border-bottom: 0.5px solid black;
+}
+
+.services h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.services-container{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.services-box img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.services-box{
+    box-shadow: 3px 3px 13px 3px rgba(0,0,0,0.1);
+    /* border: 2px solid cyan; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.clients{
+    height: 50vh ;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.clients-img img{
+    height: 200px;
+    width: 200px;
+    margin: 0px 60px;
+
+}
+
+.clients-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 60px;
+}
+
+.contact-form{
+    height: 100vh;
+    padding: 50px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box{
+    margin: 20px;
+    box-shadow: 3px 3px 13px 3px rgba(0,0,0,0.1);
+    width: 500px;
+    
+}
+
+
+.contact-form h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+.input-box{
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
